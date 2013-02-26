@@ -1,5 +1,5 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/cos/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := ville
@@ -8,15 +8,15 @@ PRODUCT_RELEASE_NAME := ville
 TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common COS stuff.
+$(call inherit-product, vendor/cos/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/ville/device_ville.mk)
 
 # Device naming
 PRODUCT_DEVICE := ville
-PRODUCT_NAME := cm_ville
+PRODUCT_NAME := cos_ville
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := One S
 PRODUCT_MANUFACTURER := HTC
