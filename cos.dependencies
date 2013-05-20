@@ -18,9 +18,9 @@
     "branch": "cm-10.1"
   },
   {
-    "project": "TheMuppets",
-    "repository": "proprietary_vendor_htc",
-    "target_path": "vendor/htc",
-    "branch": "cm-10.1"
+    "project": "ChameleonOS",
+    "repository": "android_vendor_htc_ville",
+    "target_path": "vendor/htc/ville",
+    "branch": "jellybean-mr1"
   }
 ]
