@@ -24,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/ville/overlay
 # Boot ramdisk setup
 PRODUCT_PACKAGES += \
     fstab.ville \
-    init.target.rc
+    init.target.rc.ville
 
 # HTC BT audio config
 PRODUCT_COPY_FILES += device/htc/ville/configs/AudioBTID.csv:system/etc/AudioBTID.csv
